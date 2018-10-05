@@ -1,6 +1,5 @@
 # MoodWidget
 
-[![CI Status](https://img.shields.io/travis/Manuel Bermudez/MoodWidget.svg?style=flat)](https://travis-ci.org/Manuel Bermudez/MoodWidget)
 [![Version](https://img.shields.io/cocoapods/v/MoodWidget.svg?style=flat)](https://cocoapods.org/pods/MoodWidget)
 [![License](https://img.shields.io/cocoapods/l/MoodWidget.svg?style=flat)](https://cocoapods.org/pods/MoodWidget)
 [![Platform](https://img.shields.io/cocoapods/p/MoodWidget.svg?style=flat)](https://cocoapods.org/pods/MoodWidget)
