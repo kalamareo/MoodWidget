@@ -18,9 +18,8 @@ public class MoodWidgetView: UIView {
         if controller != nil {
             return
         }
-        self.alpha = 0
         self.parent = parent
-        self.frame = CGRect(x: 0, y: parent.view.frame.size.height - 78, width: parent.view.frame.size.width, height: 78)
+        self.frame = CGRect(x: 0, y: parent.view.frame.size.height, width: parent.view.frame.size.width, height: 78)
         parent.view.addSubview(self)
         
         let podBundle = Bundle(for: MoodWidgetVC.self)
@@ -45,13 +44,13 @@ public class MoodWidgetView: UIView {
 
     public func show(){
         UIView.animate(withDuration: 0.4) {
-            self.alpha = 1
+            self.frame = CGRect(x: 0, y: self.parent.view.frame.size.height - 78, width: self.parent.view.frame.size.width, height: 78)
         }
     }
     
     public func hide(){
         UIView.animate(withDuration: 0.4) {
-            self.alpha = 0
+            self.frame = CGRect(x: 0, y: self.parent.view.frame.size.height, width: self.parent.view.frame.size.width, height: 78)
         }
     }
 }

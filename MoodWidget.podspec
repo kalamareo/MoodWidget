@@ -33,9 +33,9 @@ TODO: This widget show a control with mood states
   s.source_files = 'MoodWidget/Classes/**/*'
   s.swift_version = "4.2"
   
-  #s.resource_bundles = {
-  #  'MoodWidget' => ['MoodWidget/Resources/MoodWidget.storyboard']
-  #}
+  s.resource_bundles = {
+    'MoodWidget' => ['MoodWidget/Resources/MoodWidget.storyboard']
+  }
   #s.resource = 'Resources/MoodWidget.bundle'
   # s.public_header_files = 'Pod/Classes/**/*.h'
 s.frameworks = 'UIKit'
