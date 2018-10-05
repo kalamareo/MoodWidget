@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MoodWidget_Example' do
+  pod 'MoodWidget', :path => '../'
+
+  target 'MoodWidget_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
