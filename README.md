@@ -1,5 +1,4 @@
 # MoodWidget
-<<<<<<< HEAD
 
 [![CI Status](https://img.shields.io/travis/Manuel Bermudez/MoodWidget.svg?style=flat)](https://travis-ci.org/Manuel Bermudez/MoodWidget)
 [![Version](https://img.shields.io/cocoapods/v/MoodWidget.svg?style=flat)](https://cocoapods.org/pods/MoodWidget)
@@ -28,6 +27,3 @@ Manuel Bermudez, manuel@navandu.com
 ## License
 
 MoodWidget is available under the MIT license. See the LICENSE file for more info.
-=======
-Mood controller
->>>>>>> b68e9ae22d8809db91596469e493db8d282eaa55
