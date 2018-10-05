@@ -1,0 +1,6 @@
+framework module Pods_MoodWidget_Tests {
+  umbrella header "Pods-MoodWidget_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

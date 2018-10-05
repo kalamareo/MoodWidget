@@ -1,0 +1,16 @@
+PODS:
+  - MoodWidget (0.1.0)
+
+DEPENDENCIES:
+  - MoodWidget (from `../`)
+
+EXTERNAL SOURCES:
+  MoodWidget:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MoodWidget: b835648bf2035af45f3037feb743bb0ab3aa4b5b
+
+PODFILE CHECKSUM: 360ccd23415767f52770499de96b5a6c99b12b36
+
+COCOAPODS: 1.5.3

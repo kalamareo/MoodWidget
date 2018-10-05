@@ -1,0 +1,6 @@
+framework module MoodWidget {
+  umbrella header "MoodWidget-umbrella.h"
+
+  export *
+  module * { export * }
+}

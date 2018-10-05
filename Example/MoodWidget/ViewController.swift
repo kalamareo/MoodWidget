@@ -7,18 +7,21 @@
 //
 
 import UIKit
+import MoodWidget
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, MoodWidgetProtocol {
+    
+    var moodWidget: MoodWidgetView = MoodWidgetView()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        moodWidget.initialize(parent: self)
+        moodWidget.show()
+
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func selectedMoodAction(value: Int) {
+        print(value)
     }
-
 }
 
