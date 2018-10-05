@@ -1,5 +1,5 @@
 PODS:
-  - MoodWidget (0.1.0)
+  - MoodWidget (0.1.1)
 
 DEPENDENCIES:
   - MoodWidget (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MoodWidget: 28952424e2f714eeb85b2e014ea4d8771826a8b2
+  MoodWidget: af1d508d5a48350abe968f65397eb68ade1da2af
 
 PODFILE CHECKSUM: 360ccd23415767f52770499de96b5a6c99b12b36
 
